@@ -1,2 +1,2 @@
 # libalgosw
-Library with essential algorithms and data structures in Swift
+Library with essential algorithms and data structures in Swift. It supports Swift 5+
