@@ -1,39 +1,35 @@
 //
-//  TernaryTrieTests.swift
+//  ArrayStackTests.swift
 //  libalgoswTests
 //
-//  Created by Oleg Potapenko on 9/9/19.
+//  Created by Oleg Potapenko on 9/10/19.
 //  Copyright © 2019 Oleg Potapenko. All rights reserved.
 //
 
 import XCTest
 @testable import libalgosw
 
-class TernaryTrieTests: XCTestCase {
+class ArrayStackTests: XCTestCase {
 
-    private var symbolTable: TernaryTrie<Int>? = nil
+    private var stack: ArrayStack<Int>? = nil
     
     override func setUp() {
-        symbolTable = TernaryTrie<Int>()
+        stack = ArrayStack<Int>()
     }
     
     override func tearDown() {
-        symbolTable = nil
+        stack = nil
     }
     
-    func testPut() {
+    func testPop() {
         XCTFail()
     }
     
-    func testGet() {
+    func testPush() {
         XCTFail()
     }
     
-    func testDelete() {
-        XCTFail()
-    }
-    
-    func testContains() {
+    func testPeek() {
         XCTFail()
     }
     
@@ -46,18 +42,6 @@ class TernaryTrieTests: XCTestCase {
     }
     
     func testGetSize() {
-        XCTFail()
-    }
-    
-    func testGetAllKeys() {
-        XCTFail()
-    }
-    
-    func testGetAllKeysWithPrefix() {
-        XCTFail()
-    }
-    
-    func testLongestPrefixOf() {
         XCTFail()
     }
     

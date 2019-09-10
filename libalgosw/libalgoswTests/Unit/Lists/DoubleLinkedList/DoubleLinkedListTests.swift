@@ -1,39 +1,35 @@
 //
-//  TernaryTrieTests.swift
+//  DoubleLinkedListTests.swift
 //  libalgoswTests
 //
-//  Created by Oleg Potapenko on 9/9/19.
+//  Created by Oleg Potapenko on 9/10/19.
 //  Copyright © 2019 Oleg Potapenko. All rights reserved.
 //
 
 import XCTest
 @testable import libalgosw
 
-class TernaryTrieTests: XCTestCase {
-
-    private var symbolTable: TernaryTrie<Int>? = nil
+class DoubleLinkedListTests: XCTestCase {
+    
+    private var list: DoubleLinkedList<Int, Int>? = nil
     
     override func setUp() {
-        symbolTable = TernaryTrie<Int>()
+        list =  DoubleLinkedList<Int, Int>()
     }
     
     override func tearDown() {
-        symbolTable = nil
+        list = nil
     }
     
-    func testPut() {
+    func testAdd() {
+        XCTFail()
+    }
+    
+    func testRemove() {
         XCTFail()
     }
     
     func testGet() {
-        XCTFail()
-    }
-    
-    func testDelete() {
-        XCTFail()
-    }
-    
-    func testContains() {
         XCTFail()
     }
     
@@ -46,18 +42,6 @@ class TernaryTrieTests: XCTestCase {
     }
     
     func testGetSize() {
-        XCTFail()
-    }
-    
-    func testGetAllKeys() {
-        XCTFail()
-    }
-    
-    func testGetAllKeysWithPrefix() {
-        XCTFail()
-    }
-    
-    func testLongestPrefixOf() {
         XCTFail()
     }
     

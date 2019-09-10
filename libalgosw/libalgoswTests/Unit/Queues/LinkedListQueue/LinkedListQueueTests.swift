@@ -1,39 +1,38 @@
 //
-//  TernaryTrieTests.swift
+//  LinkedListQueueTests.swift
 //  libalgoswTests
 //
-//  Created by Oleg Potapenko on 9/9/19.
+//  Created by Oleg Potapenko on 9/10/19.
 //  Copyright © 2019 Oleg Potapenko. All rights reserved.
 //
 
 import XCTest
 @testable import libalgosw
 
-class TernaryTrieTests: XCTestCase {
+class LinkedListQueueTests: XCTestCase {
+    
+    private var queue: LinkedListQueue<Int>? = nil
 
-    private var symbolTable: TernaryTrie<Int>? = nil
-    
     override func setUp() {
-        symbolTable = TernaryTrie<Int>()
+        queue = LinkedListQueue<Int>()
     }
-    
+
     override func tearDown() {
-        symbolTable = nil
+        queue = nil
+    }
+
+    func testEnqueue() {
+        let expected = 42
+        queue?.enqueue(item: expected)
+        let actual = queue?.dequeue()
+        XCTAssertEqual(expected, actual)
     }
     
-    func testPut() {
+    func testDequeue() {
         XCTFail()
     }
     
-    func testGet() {
-        XCTFail()
-    }
-    
-    func testDelete() {
-        XCTFail()
-    }
-    
-    func testContains() {
+    func testPeek() {
         XCTFail()
     }
     
@@ -46,18 +45,6 @@ class TernaryTrieTests: XCTestCase {
     }
     
     func testGetSize() {
-        XCTFail()
-    }
-    
-    func testGetAllKeys() {
-        XCTFail()
-    }
-    
-    func testGetAllKeysWithPrefix() {
-        XCTFail()
-    }
-    
-    func testLongestPrefixOf() {
         XCTFail()
     }
     

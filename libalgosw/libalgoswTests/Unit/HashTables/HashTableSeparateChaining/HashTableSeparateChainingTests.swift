@@ -1,5 +1,5 @@
 //
-//  TernaryTrieTests.swift
+//  HashTableSeparateChainingTests.swift
 //  libalgoswTests
 //
 //  Created by Oleg Potapenko on 9/9/19.
@@ -9,19 +9,19 @@
 import XCTest
 @testable import libalgosw
 
-class TernaryTrieTests: XCTestCase {
+class HashTableSeparateChainingTests: XCTestCase {
 
-    private var symbolTable: TernaryTrie<Int>? = nil
+    private var hashTable: HashTableSeparateChaining<SimpleTransactionKey, Int>? = nil
     
     override func setUp() {
-        symbolTable = TernaryTrie<Int>()
+        hashTable =  HashTableSeparateChaining<SimpleTransactionKey, Int>()
     }
     
     override func tearDown() {
-        symbolTable = nil
+        hashTable = nil
     }
     
-    func testPut() {
+    func testAdd() {
         XCTFail()
     }
     
@@ -29,15 +29,7 @@ class TernaryTrieTests: XCTestCase {
         XCTFail()
     }
     
-    func testDelete() {
-        XCTFail()
-    }
-    
-    func testContains() {
-        XCTFail()
-    }
-    
-    func testClear() {
+    func testRemove() {
         XCTFail()
     }
     
@@ -49,15 +41,7 @@ class TernaryTrieTests: XCTestCase {
         XCTFail()
     }
     
-    func testGetAllKeys() {
-        XCTFail()
-    }
-    
-    func testGetAllKeysWithPrefix() {
-        XCTFail()
-    }
-    
-    func testLongestPrefixOf() {
+    func testClear() {
         XCTFail()
     }
     

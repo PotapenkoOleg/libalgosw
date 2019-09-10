@@ -1,5 +1,5 @@
 //
-//  TernaryTrieTests.swift
+//  ArrayBinaryHeapTests.swift
 //  libalgoswTests
 //
 //  Created by Oleg Potapenko on 9/9/19.
@@ -9,23 +9,19 @@
 import XCTest
 @testable import libalgosw
 
-class TernaryTrieTests: XCTestCase {
-
-    private var symbolTable: TernaryTrie<Int>? = nil
+class ArrayBinaryHeapTests: XCTestCase {
+    
+    private var priorityQueue: ArrayBinaryHeap<Character>? = nil
     
     override func setUp() {
-        symbolTable = TernaryTrie<Int>()
+        priorityQueue =  ArrayBinaryHeap()
     }
     
     override func tearDown() {
-        symbolTable = nil
+        priorityQueue = nil
     }
     
-    func testPut() {
-        XCTFail()
-    }
-    
-    func testGet() {
+    func testInsert() {
         XCTFail()
     }
     
@@ -33,11 +29,7 @@ class TernaryTrieTests: XCTestCase {
         XCTFail()
     }
     
-    func testContains() {
-        XCTFail()
-    }
-    
-    func testClear() {
+    func testPeek() {
         XCTFail()
     }
     
@@ -49,15 +41,7 @@ class TernaryTrieTests: XCTestCase {
         XCTFail()
     }
     
-    func testGetAllKeys() {
-        XCTFail()
-    }
-    
-    func testGetAllKeysWithPrefix() {
-        XCTFail()
-    }
-    
-    func testLongestPrefixOf() {
+    func testClear() {
         XCTFail()
     }
     

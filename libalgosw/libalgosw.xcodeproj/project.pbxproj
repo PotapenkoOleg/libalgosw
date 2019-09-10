@@ -33,6 +33,17 @@
 		0A5A3830232747C60033F815 /* LinkedListQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A382F232747C60033F815 /* LinkedListQueue.swift */; };
 		0A5A383223274A8D0033F815 /* ArrayStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A383123274A8D0033F815 /* ArrayStack.swift */; };
 		0A5A383423274B240033F815 /* LinkedListStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A383323274B240033F815 /* LinkedListStack.swift */; };
+		0A5A384223274FD40033F815 /* HashTableLinearProbingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A384123274FD40033F815 /* HashTableLinearProbingTests.swift */; };
+		0A5A3846232756A30033F815 /* HashTableSeparateChainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A3845232756A30033F815 /* HashTableSeparateChainingTests.swift */; };
+		0A5A3849232757030033F815 /* ArrayBinaryHeapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A3848232757030033F815 /* ArrayBinaryHeapTests.swift */; };
+		0A5A384C232757570033F815 /* DoubleLinkedListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A384B232757570033F815 /* DoubleLinkedListTests.swift */; };
+		0A5A384F232757860033F815 /* SingleLinkedListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A384E232757860033F815 /* SingleLinkedListTests.swift */; };
+		0A5A3851232757B00033F815 /* ArrayQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A3850232757B00033F815 /* ArrayQueueTests.swift */; };
+		0A5A3853232757D80033F815 /* LinkedListQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A3852232757D80033F815 /* LinkedListQueueTests.swift */; };
+		0A5A3857232758300033F815 /* ArrayStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A3856232758300033F815 /* ArrayStackTests.swift */; };
+		0A5A38592327584A0033F815 /* LinkedListStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A38582327584A0033F815 /* LinkedListStackTests.swift */; };
+		0A5A385C2327588D0033F815 /* TrieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A385B2327588D0033F815 /* TrieTests.swift */; };
+		0A5A385E23275FEB0033F815 /* SimpleTransactionKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A385D23275FEB0033F815 /* SimpleTransactionKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +86,17 @@
 		0A5A382F232747C60033F815 /* LinkedListQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListQueue.swift; sourceTree = "<group>"; };
 		0A5A383123274A8D0033F815 /* ArrayStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayStack.swift; sourceTree = "<group>"; };
 		0A5A383323274B240033F815 /* LinkedListStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListStack.swift; sourceTree = "<group>"; };
+		0A5A384123274FD40033F815 /* HashTableLinearProbingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTableLinearProbingTests.swift; sourceTree = "<group>"; };
+		0A5A3845232756A30033F815 /* HashTableSeparateChainingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTableSeparateChainingTests.swift; sourceTree = "<group>"; };
+		0A5A3848232757030033F815 /* ArrayBinaryHeapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayBinaryHeapTests.swift; sourceTree = "<group>"; };
+		0A5A384B232757570033F815 /* DoubleLinkedListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleLinkedListTests.swift; sourceTree = "<group>"; };
+		0A5A384E232757860033F815 /* SingleLinkedListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLinkedListTests.swift; sourceTree = "<group>"; };
+		0A5A3850232757B00033F815 /* ArrayQueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayQueueTests.swift; sourceTree = "<group>"; };
+		0A5A3852232757D80033F815 /* LinkedListQueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListQueueTests.swift; sourceTree = "<group>"; };
+		0A5A3856232758300033F815 /* ArrayStackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayStackTests.swift; sourceTree = "<group>"; };
+		0A5A38582327584A0033F815 /* LinkedListStackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListStackTests.swift; sourceTree = "<group>"; };
+		0A5A385B2327588D0033F815 /* TrieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrieTests.swift; sourceTree = "<group>"; };
+		0A5A385D23275FEB0033F815 /* SimpleTransactionKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTransactionKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,7 +199,11 @@
 		0A5A380A23273FFF0033F815 /* Unit */ = {
 			isa = PBXGroup;
 			children = (
+				0A5A383E23274F7D0033F815 /* HashTables */,
+				0A5A383823274F0F0033F815 /* Heaps */,
+				0A5A383923274F1F0033F815 /* Lists */,
 				0A5A380F2327409A0033F815 /* Queues */,
+				0A5A383B23274F440033F815 /* Stacks */,
 				0A5A380B232740160033F815 /* Tries */,
 			);
 			path = Unit;
@@ -187,6 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				0A5A380C232740350033F815 /* TernaryTrie */,
+				0A5A385A2327585B0033F815 /* Trie */,
 			);
 			path = Tries;
 			sourceTree = "<group>";
@@ -202,8 +229,8 @@
 		0A5A380F2327409A0033F815 /* Queues */ = {
 			isa = PBXGroup;
 			children = (
-				0A5A3811232740C10033F815 /* LinkedListQueue */,
 				0A5A3810232740B20033F815 /* ArrayQueue */,
+				0A5A3811232740C10033F815 /* LinkedListQueue */,
 			);
 			path = Queues;
 			sourceTree = "<group>";
@@ -211,6 +238,7 @@
 		0A5A3810232740B20033F815 /* ArrayQueue */ = {
 			isa = PBXGroup;
 			children = (
+				0A5A3850232757B00033F815 /* ArrayQueueTests.swift */,
 			);
 			path = ArrayQueue;
 			sourceTree = "<group>";
@@ -218,6 +246,7 @@
 		0A5A3811232740C10033F815 /* LinkedListQueue */ = {
 			isa = PBXGroup;
 			children = (
+				0A5A3852232757D80033F815 /* LinkedListQueueTests.swift */,
 			);
 			path = LinkedListQueue;
 			sourceTree = "<group>";
@@ -363,6 +392,106 @@
 			path = Trie;
 			sourceTree = "<group>";
 		};
+		0A5A383823274F0F0033F815 /* Heaps */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A3847232756E80033F815 /* ArrayBinaryHeap */,
+			);
+			path = Heaps;
+			sourceTree = "<group>";
+		};
+		0A5A383923274F1F0033F815 /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A384A232757270033F815 /* DoubleLinkedList */,
+				0A5A384D232757660033F815 /* SingleLinkedList */,
+			);
+			path = Lists;
+			sourceTree = "<group>";
+		};
+		0A5A383B23274F440033F815 /* Stacks */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A3854232757EF0033F815 /* ArrayStack */,
+				0A5A3855232757FF0033F815 /* LinkedListStack */,
+			);
+			path = Stacks;
+			sourceTree = "<group>";
+		};
+		0A5A383E23274F7D0033F815 /* HashTables */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A383F23274F990033F815 /* HashTableLinearProbing */,
+				0A5A384023274FAE0033F815 /* HashTableSeparateChaining */,
+				0A5A385D23275FEB0033F815 /* SimpleTransactionKey.swift */,
+			);
+			path = HashTables;
+			sourceTree = "<group>";
+		};
+		0A5A383F23274F990033F815 /* HashTableLinearProbing */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A384123274FD40033F815 /* HashTableLinearProbingTests.swift */,
+			);
+			path = HashTableLinearProbing;
+			sourceTree = "<group>";
+		};
+		0A5A384023274FAE0033F815 /* HashTableSeparateChaining */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A3845232756A30033F815 /* HashTableSeparateChainingTests.swift */,
+			);
+			path = HashTableSeparateChaining;
+			sourceTree = "<group>";
+		};
+		0A5A3847232756E80033F815 /* ArrayBinaryHeap */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A3848232757030033F815 /* ArrayBinaryHeapTests.swift */,
+			);
+			path = ArrayBinaryHeap;
+			sourceTree = "<group>";
+		};
+		0A5A384A232757270033F815 /* DoubleLinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A384B232757570033F815 /* DoubleLinkedListTests.swift */,
+			);
+			path = DoubleLinkedList;
+			sourceTree = "<group>";
+		};
+		0A5A384D232757660033F815 /* SingleLinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A384E232757860033F815 /* SingleLinkedListTests.swift */,
+			);
+			path = SingleLinkedList;
+			sourceTree = "<group>";
+		};
+		0A5A3854232757EF0033F815 /* ArrayStack */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A3856232758300033F815 /* ArrayStackTests.swift */,
+			);
+			path = ArrayStack;
+			sourceTree = "<group>";
+		};
+		0A5A3855232757FF0033F815 /* LinkedListStack */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A38582327584A0033F815 /* LinkedListStackTests.swift */,
+			);
+			path = LinkedListStack;
+			sourceTree = "<group>";
+		};
+		0A5A385A2327585B0033F815 /* Trie */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A385B2327588D0033F815 /* TrieTests.swift */,
+			);
+			path = Trie;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -502,7 +631,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A5A385C2327588D0033F815 /* TrieTests.swift in Sources */,
+				0A5A3857232758300033F815 /* ArrayStackTests.swift in Sources */,
+				0A5A385E23275FEB0033F815 /* SimpleTransactionKey.swift in Sources */,
+				0A5A3853232757D80033F815 /* LinkedListQueueTests.swift in Sources */,
+				0A5A3851232757B00033F815 /* ArrayQueueTests.swift in Sources */,
 				0A5A380E2327407D0033F815 /* TernaryTrieTests.swift in Sources */,
+				0A5A384223274FD40033F815 /* HashTableLinearProbingTests.swift in Sources */,
+				0A5A384F232757860033F815 /* SingleLinkedListTests.swift in Sources */,
+				0A5A3849232757030033F815 /* ArrayBinaryHeapTests.swift in Sources */,
+				0A5A38592327584A0033F815 /* LinkedListStackTests.swift in Sources */,
+				0A5A3846232756A30033F815 /* HashTableSeparateChainingTests.swift in Sources */,
+				0A5A384C232757570033F815 /* DoubleLinkedListTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
