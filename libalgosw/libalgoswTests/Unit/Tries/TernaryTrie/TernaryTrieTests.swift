@@ -1,15 +1,14 @@
 //
-//  libalgoswTests.swift
+//  TernaryTrieTests.swift
 //  libalgoswTests
 //
-//  Created by Oleg Potapenko on 8/26/19.
+//  Created by Oleg Potapenko on 9/9/19.
 //  Copyright © 2019 Oleg Potapenko. All rights reserved.
 //
 
 import XCTest
-@testable import libalgosw
 
-class libalgoswTests: XCTestCase {
+class TernaryTrieTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
