@@ -25,7 +25,7 @@ protocol SymbolTable {
     
     func getAllKeys() -> [String]
     
-    func getAllKeys(with prefix: String) -> [String]
+    func getKeys(with prefix: String) -> [String]
     
-    func longestPrefixOf(prefix: String) -> String?
+    func longestPrefixOf(key: String) -> String?
 }

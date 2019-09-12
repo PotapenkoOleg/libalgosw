@@ -40,11 +40,11 @@ class Trie<T>: SymbolTable {
         abort()
     }
     
-    func getAllKeys(with prefix: String) -> [String] {
+    func getKeys(with prefix: String) -> [String] {
         abort()
     }
     
-    func longestPrefixOf(prefix: String) -> String? {
+    func longestPrefixOf(key: String) -> String? {
         abort()
     }
 }
